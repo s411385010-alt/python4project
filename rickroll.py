@@ -1,0 +1,6 @@
+lyrics=input()
+line=input()
+a,b=line.split()
+print(lyrics.count(a))
+lyrics=lyrics.replace(a,b)
+print(lyrics)
