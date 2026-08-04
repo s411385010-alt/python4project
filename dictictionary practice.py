@@ -14,7 +14,7 @@ ans = ""
 for name in score:
     if score.get(name)>max_score:
        max_score=score[name]
-       ans=name;
+       ans=name
 
 print(ans)
 
